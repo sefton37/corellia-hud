@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Corellia HUD</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/hud.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<main id="hud" aria-live="off">
+  <header class="mast">
+    <div class="brand">
+      <h1>Corellia</h1>
+      <p id="sub">desktop HUD</p>
+    </div>
+    <div id="clock" class="clock" aria-label="Time of last update"></div>
+  </header>
+  <section id="status"></section>
+  <section id="services"></section>
+  <section id="games"></section>
+  <section id="claude"></section>
+  <section id="perf"></section>
+  <section id="web"></section>
+  <footer id="foot" class="foot"></footer>
+</main>
+<script src="/hud.js"></script>
+</body>
+</html>

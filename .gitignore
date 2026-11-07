@@ -1,0 +1,10 @@
+# secrets: the Cloudflare token lives under ~/.config/corellia-hud, never here
+cloudflare.token
+*.token
+.env
+
+# build / test output
+__pycache__/
+*.pyc
+tests/e2e/out/
+.mutants/

@@ -1,0 +1,742 @@
+{
+ "healthy": {
+  "alerts": [],
+  "meta": {
+   "all_clear": true,
+   "banner": null,
+   "counts": {
+    "amber": 0,
+    "green": 3,
+    "grey": 0,
+    "red": 0
+   },
+   "generated_at": 1800000000.0,
+   "sources": {
+    "analytics": "ok",
+    "cloudflare": "token_needed",
+    "product_db": "ok",
+    "prometheus": "ok",
+    "registry": "ok"
+   }
+  },
+  "perf": {
+   "cpu": {
+    "level": "green",
+    "pct": 12.5,
+    "spark": [
+     10.0,
+     13.5,
+     12.0,
+     10.5,
+     14.0,
+     12.5,
+     11.0,
+     14.5,
+     13.0,
+     11.5,
+     10.0,
+     13.5,
+     12.0,
+     10.5,
+     14.0,
+     12.5,
+     11.0,
+     14.5,
+     13.0,
+     11.5,
+     10.0,
+     13.5,
+     12.0,
+     10.5,
+     14.0,
+     12.5,
+     11.0,
+     14.5,
+     13.0,
+     11.5,
+     10.0,
+     13.5,
+     12.0,
+     10.5,
+     14.0,
+     12.5,
+     11.0,
+     14.5,
+     13.0,
+     11.5,
+     10.0,
+     13.5,
+     12.0,
+     10.5,
+     14.0,
+     12.5,
+     11.0,
+     14.5,
+     13.0,
+     11.5,
+     10.0,
+     13.5,
+     12.0,
+     10.5,
+     14.0,
+     12.5,
+     11.0,
+     14.5,
+     13.0,
+     11.5
+    ]
+   },
+   "disk": {
+    "level": "green",
+    "pct": 41.0,
+    "spark": []
+   },
+   "gpu": {
+    "level": "green",
+    "pct": 7.0,
+    "spark": [
+     5.6,
+     7.56,
+     6.72,
+     5.88,
+     7.84,
+     7.0,
+     6.16,
+     8.12,
+     7.28,
+     6.44,
+     5.6,
+     7.56,
+     6.72,
+     5.88,
+     7.84,
+     7.0,
+     6.16,
+     8.12,
+     7.28,
+     6.44,
+     5.6,
+     7.56,
+     6.72,
+     5.88,
+     7.84,
+     7.0,
+     6.16,
+     8.12,
+     7.28,
+     6.44,
+     5.6,
+     7.56,
+     6.72,
+     5.88,
+     7.84,
+     7.0,
+     6.16,
+     8.12,
+     7.28,
+     6.44,
+     5.6,
+     7.56,
+     6.72,
+     5.88,
+     7.84,
+     7.0,
+     6.16,
+     8.12,
+     7.28,
+     6.44,
+     5.6,
+     7.56,
+     6.72,
+     5.88,
+     7.84,
+     7.0,
+     6.16,
+     8.12,
+     7.28,
+     6.44
+    ]
+   },
+   "load": {
+    "level": "green",
+    "spark": [
+     2.56,
+     3.46,
+     3.07,
+     2.69,
+     3.58,
+     3.2,
+     2.82,
+     3.71,
+     3.33,
+     2.94,
+     2.56,
+     3.46,
+     3.07,
+     2.69,
+     3.58,
+     3.2,
+     2.82,
+     3.71,
+     3.33,
+     2.94,
+     2.56,
+     3.46,
+     3.07,
+     2.69,
+     3.58,
+     3.2,
+     2.82,
+     3.71,
+     3.33,
+     2.94,
+     2.56,
+     3.46,
+     3.07,
+     2.69,
+     3.58,
+     3.2,
+     2.82,
+     3.71,
+     3.33,
+     2.94,
+     2.56,
+     3.46,
+     3.07,
+     2.69,
+     3.58,
+     3.2,
+     2.82,
+     3.71,
+     3.33,
+     2.94,
+     2.56,
+     3.46,
+     3.07,
+     2.69,
+     3.58,
+     3.2,
+     2.82,
+     3.71,
+     3.33,
+     2.94
+    ],
+    "value": 3.2
+   },
+   "mem": {
+    "level": "green",
+    "pct": 23.0,
+    "spark": [
+     18.4,
+     24.84,
+     22.08,
+     19.32,
+     25.76,
+     23.0,
+     20.24,
+     26.68,
+     23.92,
+     21.16,
+     18.4,
+     24.84,
+     22.08,
+     19.32,
+     25.76,
+     23.0,
+     20.24,
+     26.68,
+     23.92,
+     21.16,
+     18.4,
+     24.84,
+     22.08,
+     19.32,
+     25.76,
+     23.0,
+     20.24,
+     26.68,
+     23.92,
+     21.16,
+     18.4,
+     24.84,
+     22.08,
+     19.32,
+     25.76,
+     23.0,
+     20.24,
+     26.68,
+     23.92,
+     21.16,
+     18.4,
+     24.84,
+     22.08,
+     19.32,
+     25.76,
+     23.0,
+     20.24,
+     26.68,
+     23.92,
+     21.16,
+     18.4,
+     24.84,
+     22.08,
+     19.32,
+     25.76,
+     23.0,
+     20.24,
+     26.68,
+     23.92,
+     21.16
+    ]
+   },
+   "uptime_s": 400000.0,
+   "vram": {
+    "level": "green",
+    "pct": 69.9,
+    "spark": [],
+    "total_bytes": 17171480576,
+    "used_bytes": 11994660864.0
+   }
+  },
+  "services": [
+   {
+    "group": "Other",
+    "kind": "docker",
+    "label": "UP",
+    "name": "alpha",
+    "port": 5000,
+    "reason": "port 5000 open",
+    "stale": false,
+    "status": "green"
+   },
+   {
+    "group": "Other",
+    "kind": "docker",
+    "label": "UP",
+    "name": "beta",
+    "port": 5001,
+    "reason": "port 5001 open",
+    "stale": false,
+    "status": "green"
+   },
+   {
+    "group": "Other",
+    "kind": "systemd-user",
+    "label": "UP",
+    "name": "gamma",
+    "port": null,
+    "reason": "unit active",
+    "stale": false,
+    "status": "green"
+   }
+  ],
+  "web": {
+   "cloudflare": {
+    "state": "token_needed",
+    "zones": [
+     {
+      "state": "token_needed",
+      "zone": "brengel.com"
+     },
+     {
+      "state": "token_needed",
+      "zone": "talkingrock.ai"
+     }
+    ]
+   },
+   "sites": [
+    {
+     "beacon": {
+      "delta_24h": {
+       "pct": 50
+      },
+      "delta_7d": {
+       "label": "new"
+      },
+      "pageviews_24h": 16,
+      "state": "ok",
+      "visitors_24h": 15,
+      "visitors_7d": 25
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "chat": {
+      "avg_response_ms": null,
+      "blocked_7d": 0,
+      "contacts": {
+       "accepted": 94,
+       "quarantined": 1500,
+       "state": "ok"
+      },
+      "conversations_24h": 0,
+      "conversations_7d": 0,
+      "funnel": {
+       "consents": 0,
+       "opens": 0,
+       "recorded": false,
+       "state": "ok"
+      },
+      "state": "ok",
+      "turns_7d": 0
+     },
+     "host": "kellogg.brengel.com",
+     "zone": "brengel.com"
+    },
+    {
+     "beacon": {
+      "delta_24h": null,
+      "delta_7d": null,
+      "pageviews_24h": 0,
+      "state": "ok",
+      "visitors_24h": 0,
+      "visitors_7d": 0
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "host": "rogueroutine.brengel.com",
+     "zone": "brengel.com"
+    },
+    {
+     "beacon": {
+      "delta_24h": {
+       "label": "new"
+      },
+      "delta_7d": {
+       "label": "new"
+      },
+      "pageviews_24h": 2,
+      "state": "ok",
+      "visitors_24h": 2,
+      "visitors_7d": 4
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "host": "talkingrock.ai",
+     "zone": "talkingrock.ai"
+    }
+   ]
+  }
+ },
+ "prom_down": {
+  "alerts": [],
+  "meta": {
+   "all_clear": false,
+   "banner": "Prometheus unreachable: service and perf data unavailable",
+   "counts": {
+    "amber": 0,
+    "green": 0,
+    "grey": 3,
+    "red": 0
+   },
+   "generated_at": 1800000000.0,
+   "sources": {
+    "analytics": "ok",
+    "cloudflare": "token_needed",
+    "product_db": "ok",
+    "prometheus": "unreachable",
+    "registry": "ok"
+   }
+  },
+  "perf": {
+   "cpu": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "disk": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "gpu": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "load": {
+    "level": "grey",
+    "spark": [],
+    "value": null
+   },
+   "mem": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "uptime_s": null,
+   "vram": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   }
+  },
+  "services": [
+   {
+    "group": "Other",
+    "kind": "docker",
+    "label": "NO DATA",
+    "name": "alpha",
+    "port": 5000,
+    "reason": "prometheus unreachable",
+    "stale": false,
+    "status": "grey"
+   },
+   {
+    "group": "Other",
+    "kind": "docker",
+    "label": "NO DATA",
+    "name": "beta",
+    "port": 5001,
+    "reason": "prometheus unreachable",
+    "stale": false,
+    "status": "grey"
+   },
+   {
+    "group": "Other",
+    "kind": "systemd-user",
+    "label": "NO DATA",
+    "name": "gamma",
+    "port": null,
+    "reason": "prometheus unreachable",
+    "stale": false,
+    "status": "grey"
+   }
+  ],
+  "web": {
+   "cloudflare": {
+    "state": "token_needed",
+    "zones": [
+     {
+      "state": "token_needed",
+      "zone": "brengel.com"
+     },
+     {
+      "state": "token_needed",
+      "zone": "talkingrock.ai"
+     }
+    ]
+   },
+   "sites": [
+    {
+     "beacon": {
+      "delta_24h": {
+       "pct": 50
+      },
+      "delta_7d": {
+       "label": "new"
+      },
+      "pageviews_24h": 16,
+      "state": "ok",
+      "visitors_24h": 15,
+      "visitors_7d": 25
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "chat": {
+      "avg_response_ms": null,
+      "blocked_7d": 0,
+      "contacts": {
+       "accepted": 94,
+       "quarantined": 1500,
+       "state": "ok"
+      },
+      "conversations_24h": 0,
+      "conversations_7d": 0,
+      "funnel": {
+       "consents": 0,
+       "opens": 0,
+       "recorded": false,
+       "state": "ok"
+      },
+      "state": "ok",
+      "turns_7d": 0
+     },
+     "host": "kellogg.brengel.com",
+     "zone": "brengel.com"
+    },
+    {
+     "beacon": {
+      "delta_24h": null,
+      "delta_7d": null,
+      "pageviews_24h": 0,
+      "state": "ok",
+      "visitors_24h": 0,
+      "visitors_7d": 0
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "host": "rogueroutine.brengel.com",
+     "zone": "brengel.com"
+    },
+    {
+     "beacon": {
+      "delta_24h": {
+       "label": "new"
+      },
+      "delta_7d": {
+       "label": "new"
+      },
+      "pageviews_24h": 2,
+      "state": "ok",
+      "visitors_24h": 2,
+      "visitors_7d": 4
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "host": "talkingrock.ai",
+     "zone": "talkingrock.ai"
+    }
+   ]
+  }
+ },
+ "registry_missing": {
+  "alerts": [],
+  "meta": {
+   "all_clear": false,
+   "banner": "Prometheus unreachable: service and perf data unavailable",
+   "counts": {
+    "amber": 0,
+    "green": 0,
+    "grey": 0,
+    "red": 0
+   },
+   "generated_at": 1800000000.0,
+   "sources": {
+    "analytics": "ok",
+    "cloudflare": "token_needed",
+    "product_db": "ok",
+    "prometheus": "unreachable",
+    "registry": "missing"
+   }
+  },
+  "perf": {
+   "cpu": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "disk": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "gpu": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "load": {
+    "level": "grey",
+    "spark": [],
+    "value": null
+   },
+   "mem": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   },
+   "uptime_s": null,
+   "vram": {
+    "level": "grey",
+    "pct": null,
+    "spark": []
+   }
+  },
+  "services": [],
+  "web": {
+   "cloudflare": {
+    "state": "token_needed",
+    "zones": [
+     {
+      "state": "token_needed",
+      "zone": "brengel.com"
+     },
+     {
+      "state": "token_needed",
+      "zone": "talkingrock.ai"
+     }
+    ]
+   },
+   "sites": [
+    {
+     "beacon": {
+      "delta_24h": {
+       "pct": 50
+      },
+      "delta_7d": {
+       "label": "new"
+      },
+      "pageviews_24h": 16,
+      "state": "ok",
+      "visitors_24h": 15,
+      "visitors_7d": 25
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "chat": {
+      "avg_response_ms": null,
+      "blocked_7d": 0,
+      "contacts": {
+       "accepted": 94,
+       "quarantined": 1500,
+       "state": "ok"
+      },
+      "conversations_24h": 0,
+      "conversations_7d": 0,
+      "funnel": {
+       "consents": 0,
+       "opens": 0,
+       "recorded": false,
+       "state": "ok"
+      },
+      "state": "ok",
+      "turns_7d": 0
+     },
+     "host": "kellogg.brengel.com",
+     "zone": "brengel.com"
+    },
+    {
+     "beacon": {
+      "delta_24h": null,
+      "delta_7d": null,
+      "pageviews_24h": 0,
+      "state": "ok",
+      "visitors_24h": 0,
+      "visitors_7d": 0
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "host": "rogueroutine.brengel.com",
+     "zone": "brengel.com"
+    },
+    {
+     "beacon": {
+      "delta_24h": {
+       "label": "new"
+      },
+      "delta_7d": {
+       "label": "new"
+      },
+      "pageviews_24h": 2,
+      "state": "ok",
+      "visitors_24h": 2,
+      "visitors_7d": 4
+     },
+     "cf": {
+      "state": "token_needed"
+     },
+     "host": "talkingrock.ai",
+     "zone": "talkingrock.ai"
+    }
+   ]
+  }
+ }
+}

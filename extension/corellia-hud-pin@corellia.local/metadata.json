@@ -1,0 +1,7 @@
+{
+  "uuid": "corellia-hud-pin@corellia.local",
+  "name": "Corellia HUD pin",
+  "description": "Pins the Corellia HUD window: behind all windows, on every workspace, right edge, hidden from the dock and Alt-Tab.",
+  "shell-version": ["50"],
+  "version": 1
+}

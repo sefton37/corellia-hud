@@ -1,0 +1,14 @@
+[Unit]
+Description=Corellia HUD window (frameless GTK3 + WebKit2; pinned by the corellia-hud-pin extension)
+PartOf=graphical-session.target
+After=graphical-session.target corellia-hud.service
+Wants=corellia-hud.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/dev/corellia-hud/launcher/hud_window.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=graphical-session.target

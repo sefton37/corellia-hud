@@ -1,0 +1,18 @@
+[Unit]
+Description=Corellia HUD aggregator (loopback 127.0.0.1:8670, read-only)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/dev/corellia-hud
+ExecStart=/usr/bin/python3 -m corellia_hud.server
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
